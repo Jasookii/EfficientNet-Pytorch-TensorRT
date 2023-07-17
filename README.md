@@ -58,7 +58,7 @@ python main.py
 python gen_wts.py
 ```
 
-3. build
+2. build
 
 ```
 mkdir build
@@ -66,11 +66,13 @@ cd build
 cmake ..
 make
 ```
-4. serialize model to engine
+3. serialize model to engine
+
 ```
 ./efficientnet -s [.wts] [.engine] [b0-signal b0 b1 b2 b3 ... b7]  // serialize model to engine file
 ```
-5. deserialize and do infer
+4. deserialize and do infer
+
 ```
 ./efficientnet -d [.engine] [b0-signal b0 b1 b2 b3 ... b7] [img-path]  // deserialize engine and do inference
 ```
