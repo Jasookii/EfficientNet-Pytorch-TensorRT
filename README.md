@@ -47,7 +47,8 @@ pip install efficientnet_pytorch
 3. Train&Test EfficientNet, (Note that the number of classes)
 
 ```
-python main.py 
+python main_img.py
+python main_matrix.py
 ```
 
 Matrix CheckPoints: https://drive.google.com/file/d/1hMDgn0Cs4QElBYz3RBIsCgrborv5HVG6/view?usp=drive_link
@@ -80,6 +81,12 @@ make
 ```
 ./efficientnet -d [.engine] [b0-signal b0 b1 b2 b3 ... b7] [img-path]  // deserialize engine and do inference
 ```
+
+## TRT Server
+
+Serve
+
+Client
 
 ## Implementation
 
