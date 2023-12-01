@@ -47,10 +47,14 @@ pip install efficientnet_pytorch
 3. Train&Test EfficientNet, (Note that the number of classes)
 
 ```
-python main.py
+python main.py 
 ```
 
-## TensorRT
+Matrix CheckPoints: https://drive.google.com/file/d/1hMDgn0Cs4QElBYz3RBIsCgrborv5HVG6/view?usp=drive_link
+
+IMG CheckPoints: https://drive.google.com/file/d/1V1CegkkA_6ln-2XVP_6qffQy2kkRA6yc/view?usp=drive_link
+
+## TRT
 
 1. gennerate `.wts` file
 
